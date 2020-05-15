@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<style type="text/css">
+body,td,th {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+body {
+	background-image: url(imagenes/Fondopw.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onload="MM_preloadImages('imagenes/inicio2.png','imagenes/servicios2.png','imagenes/contacto2.png')">
+<table width="800" border="0" align="center" cellpadding="0" cellspacing="10">
+  <tr>
+    <td height="120" colspan="3" align="center" valign="top"><img src="imagenes/logosCaliche.png" width="355" height="221" /></td>
+  </tr>
+  <tr>
+    <td height="349" colspan="2" align="left" valign="top"><p><img src="imagenes/-ordenador-imagen-animada.gif" width="385" height="215" />   </p>
+    <p>&nbsp;</p></td>
+    <td width="315" height="200" align="center" valign="top"><a href="index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('boton-inicio','','imagenes/inicio2.png',1)"><img src="imagenes/inicio1.png" width="100" height="100" id="boton-inicio" /><br />
+      </a><a href="servicios.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('boton-servicios','','imagenes/servicios2.png',1)"><img src="imagenes/servicios1.png" width="100" height="100" id="boton-servicios" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('boton-inicio','','imagenes/inicio2.png',1)"><br />
+      </a><a href="contacto.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('boton-contacto','','imagenes/contacto2.png',1)"><img src="imagenes/contacto1.png" width="100" height="100" id="boton-contacto" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('boton-inicio','','imagenes/inicio2.png',1)">
+    </a></td>
+  </tr>
+  <tr>
+    <td width="401" align="right" valign="top">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3987.019853221326!2d-79.88973020632602!3d-2.146083237763906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1576701349950!5m2!1ses!2sec" width="350" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </td>
+    <td colspan="2" align="center" valign="middle"><form id="form1" name="form1" method="post" action="">
+      <table width="200" border="0" align="left">
+        <tr>
+          <td width="59" align="left">NOMBRE</td>
+          <td width="250"><input type="text" name="textfield" id="textfield" /></td>
+          </tr>
+        <tr>
+          <td align="left">CORREO</td>
+          <td><input type="text" name="textfield2" id="textfield2" /></td>
+          </tr>
+        <tr>
+          <td align="left">MENSAJE</td>
+          <td><textarea name="textarea" id="textarea" cols="30" rows="5"></textarea></td>
+          </tr>
+        <tr>
+          <td align="left">&nbsp;</td>
+          <td align="center"><input type="submit" name="button" id="button" value="Enviar" /> <input type="submit" name="button2" id="button2" value="Cancelar" /></td>
+          </tr>
+        </table>
+    </form></td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center">Cyber Caliche &copy; 2019 Todos los derechos Reservados</td>
+  </tr>
+</table>
+</body>
+</html>
